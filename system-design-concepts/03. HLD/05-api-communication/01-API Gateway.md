@@ -2,6 +2,10 @@
 
 ## The Problem: Why We Need API Gateways
 
+![](https://substackcdn.com/image/fetch/$s_!uLaz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d095207-18e1-4ac4-bc61-b8c8b284c3f0_1600x970.png)
+![](https://substackcdn.com/image/fetch/$s_!q7s1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb6ff15f-3ef1-4095-bb98-261a563cec43_1600x969.png)
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb0c8192-4b1b-4834-b068-20d8cfb65050_1856x1412.png)
+![](https://substackcdn.com/image/fetch/$s_!KDJ0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5d572a6-c679-43d9-affa-54cc711a4b75_2250x2504.png)
 ### The Microservices Communication Problem
 
 Imagine building a large e-commerce application with microservices:

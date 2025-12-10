@@ -1,0 +1,354 @@
+```json
+{
+  // ===============================
+  // Auto Save & File Management
+  // ===============================
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 700,
+  "files.eol": "\n",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "security.workspace.trust.untrustedFiles": "prompt",
+
+  // ===============================
+  // Git & Source Control
+  // ===============================
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  "git.ignoreRebaseWarning": true,
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+
+  // ===============================
+  // Terminal Setup
+  // ===============================
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"],
+      "icon": "terminal-bash"
+    }
+  },
+
+  // VALID terminal icons + colors
+  "terminal.integrated.tabs.defaultIcon": "terminal-bash",
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+
+  "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.mouseWheelZoom": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  // ===============================
+  // Editor Font & UI
+  // ===============================
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.letterSpacing": 0.3,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.mouseWheelZoom": true,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.suppressSuggestions": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderLineHighlight": "all",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+
+  // ===============================
+  // Indentation Guides & Brackets
+  // ===============================
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+  // FIXED deprecated keys
+  "editorIndentGuide.background1": "#2c323c",
+  "editorIndentGuide.activeBackground1": "#6b7080",
+
+  // ===============================
+  // ESLint & UNIVERSAL Auto Formatting
+  // ===============================
+  "eslint.validate": ["javascript"],
+
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  
+
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+
+  // ===============================
+  // Extensions & Tools Behavior
+  // ===============================
+  "grunt.autoDetect": "on",
+  "gulp.autoDetect": "on",
+  "jake.autoDetect": "on",
+  "tabnine.experimentalAutoImports": true,
+
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.clearPreviousOutput": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // ===============================
+  // AI / Codeium / Copilot / Cody
+  // ===============================
+  "codeium.enableConfig": {
+    "*": true,
+    "javascriptreact": false
+  },
+  "codeium.enableCodeLens": false,
+  "codeium.aggressiveShutdown": true,
+
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "cody.suggestions.mode": "auto-edit",
+
+  // ===============================
+  // GitLens / AI Commit Message
+  // ===============================
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-3.5-turbo",
+
+  "aicommitmessage.openAI.customEndpoint": "openai",
+  "aicommitmessage.openAI.gptVersion": "gpt-4o-2024-05-13",
+  "aicommitmessage.openAI.apiKey": "",
+  "aicommitmessage.openAI.language": "English",
+
+  // ===============================
+  // UI/Theme Defaults
+  // ===============================
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.colorTheme": "GitHub Dark",
+  "window.commandCenter": false,
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+
+  // ===============================
+  // Markdown Preview Enhanced
+  // ===============================
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.revealjsTheme": "serif.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.enablePreviewZenMode": true,
+  "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+
+  // ===============================
+  // Terminal Color Customization
+  // ===============================
+  "workbench.colorCustomizations": {
+    "editor.background": "#0e1116",
+    "editor.foreground": "#dfe2e7",
+    "editorLineNumber.foreground": "#3b4252",
+    "editorLineNumber.activeForeground": "#9aa5b8",
+
+    "editorCursor.foreground": "#66ccff",
+    "editor.selectionBackground": "#264f78aa",
+    "editor.inactiveSelectionBackground": "#264f7833",
+    "editor.selectionHighlightBackground": "#3a506699",
+
+    "tab.activeBackground": "#1b1f27",
+    "tab.inactiveBackground": "#0e1116",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveForeground": "#8b929d",
+    "tab.hoverBackground": "#252a33",
+    "tab.border": "#00000000",
+
+    "sideBar.background": "#0d1015",
+    "sideBar.foreground": "#c7ccd5",
+    "sideBar.sectionHeader.background": "#15181f",
+    "sideBar.border": "#00000000",
+
+    "statusBar.background": "#0d1218",
+    "statusBar.foreground": "#cbd3dd",
+    "statusBar.noFolderBackground": "#0d1218",
+    "statusBar.debuggingBackground": "#8034d8",
+
+    "activityBar.background": "#0b0e13",
+    "activityBar.foreground": "#dfe2e7",
+    "activityBar.activeBorder": "#66ccff",
+    "activityBar.inactiveForeground": "#727b88",
+    "activityBarBadge.background": "#66ccff",
+    "activityBarBadge.foreground": "#0b0e13",
+
+    "panel.background": "#10141b",
+    "panel.border": "#1f2430",
+
+    "breadcrumb.foreground": "#73808f",
+    "breadcrumb.focusForeground": "#cfd7e3",
+
+    "editorIndentGuide.background1": "#2c323c",
+    "editorIndentGuide.activeBackground1": "#6b7080",
+
+    "scrollbarSlider.background": "#5a637266",
+    "scrollbarSlider.hoverBackground": "#6b748399",
+    "scrollbarSlider.activeBackground": "#7d8899bb",
+
+    "terminal.background": "#0e1116",
+    "terminal.foreground": "#dfe2e7",
+
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#10037d",
+    "terminal.ansiBrightBlue": "#1a01ff",
+    "terminal.ansiCyan": "#025d96",
+    "terminal.ansiBrightCyan": "#06a0ff",
+    "terminal.ansiGreen": "#187501",
+    "terminal.ansiBrightGreen": "#33ff00",
+    "terminal.ansiMagenta": "#6a0261",
+    "terminal.ansiBrightMagenta": "#ff00ea",
+    "terminal.ansiRed": "#6a0202",
+    "terminal.ansiBrightRed": "#ff0000",
+    "terminal.ansiWhite": "#a1a1a1",
+    "terminal.ansiBrightWhite": "#fbfbfb",
+    "terminal.ansiYellow": "#6a6702",
+    "terminal.ansiBrightYellow": "#fff700",
+    "terminal.ansiBrightBlack": "#474747"
+  },
+
+  // ===============================
+  // Icons & Misc
+  // ===============================
+  "material-icon-theme.folders.theme": "specific",
+  "remote.SSH.remotePlatform": {
+    "sandbox.rd8gq3.csb": "linux"
+  },
+  "database-client.autoSync": true,
+  "python.defaultInterpreterPath": "c:\\\\Users\\\\Tanish\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python3.13.exe",
+  "amp.url": "https://ampcode.com/",
+
+  // ===============================
+  // Code Runner Executor Maps
+  // ===============================
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "python": "python -u",
+    "typescript": "npx ts-node",
+    "go": "go run",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "dart": "dart",
+    "php": "php",
+    "swift": "swift",
+    "r": "Rscript",
+    "v": "v run"
+  },
+
+  "code-runner.executorMapByGlob": {
+    "pom.xml": "cd $dir && mvn clean package"
+  },
+
+  // ===============================
+  // Terminal Behavior Improvements
+  // ===============================
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.fastScrollSensitivity": 5,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.minimumContrastRatio": 4.5,
+  "terminal.integrated.enableFileLinks": "on",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.detectLocale": "off",
+  "terminal.integrated.enableVisualBell": false,
+
+  // ===============================
+  // Developer Workflow Improvements
+  // ===============================
+  "editor.stickyScroll.enabled": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.hover.delay": 100,
+  "editor.fastScrollSensitivity": 5,
+  "editor.accessibilitySupport": "off",
+
+  "breadcrumbs.enabled": true,
+
+  "search.quickOpen.includeSymbols": true,
+  "search.useIgnoreFiles": true,
+  "search.useGlobalIgnoreFiles": true,
+
+  "editor.detectIndentation": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoSurround": "languageDefined",
+
+  "editor.quickSuggestionsDelay": 0,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.inlineSuggest.enabled": true,
+
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+
+  "debug.console.fontFamily": "'JetBrains Mono', monospace",
+  "debug.console.wordWrap": true,
+  "debug.openDebug": "openOnSessionStart",
+  "debug.showBreakpointsInOverviewRuler": true,
+
+  "accessibility.signals.terminalBell": {
+    "sound": "off"
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "C:\\Users\\Tanish\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\Tanish\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\Tanish\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\Tanish\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\Tanish\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\Tanish\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+  },
+
+  "editor.inlineSuggest.showToolbar": "always"
+}
+```

@@ -4,50 +4,17 @@
     {
       "label": "Compile and run",
       "type": "shell",
-      "command": "",
+      "command": "bash",
       "args": [
-        "copy",
-        "\"${file}\"",
-        "${workspaceFolder}\\jspwTest.cpp",
-        "&&",
-        "g++",
-        "jspwTest.cpp",
-        "-o",
-        "jspwTest",
-        "&&",
-        "jspwTest",
-        "<",
-        "input.txt",
-        ">",
-        "output.txt",
-        "&&",
-        "del",
-        "jspwTest.exe",
-        "&&",
-        "del",
-        "jspwTest.cpp"
+        "-c",
+        "cp \"${file}\" \"${workspaceFolder}/jspwTest.cpp\" && g++ \"${workspaceFolder}/jspwTest.cpp\" -o \"${workspaceFolder}/jspwTest\" && \"${workspaceFolder}/jspwTest\" < \"${workspaceFolder}/input.txt\" > \"${workspaceFolder}/output.txt\" && rm \"${workspaceFolder}/jspwTest\" \"${workspaceFolder}/jspwTest.cpp\""
       ],
-      "presentation": {
-        "reveal": "never"
-      },
       "group": {
         "kind": "build",
-        "isDefault": true,
+        "isDefault": true
       },
-      "problemMatcher": {
-        "owner": "cpp",
-        "fileLocation": [
-          "relative",
-          "${workspaceRoot}"
-        ],
-        "pattern": {
-          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
-          "file": 1,
-          "line": 2,
-          "column": 3,
-          "severity": 4,
-          "message": 5
-        }
+      "presentation": {
+        "reveal": "never"
       }
     }
   ]
