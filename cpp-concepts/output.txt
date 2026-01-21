@@ -1,8 +1,0 @@
-===== Temperature Conversion System =====
-Enter temperature value: 
-Entered temperature value: 0
-Enter source unit (C/F/K): 
-Entered source unit (C/F/K): C 
-Enter target unit (C/F/K): 
-Entered target unit (C/F/K): K
-Converted Temperature: 273.15 K
