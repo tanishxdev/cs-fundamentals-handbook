@@ -16,7 +16,7 @@
 ### **2. OS Types and Architectures**
 
 7. Explain different types of operating systems: Batch, Time-sharing, Distributed, Network, Real-Time, Mobile.
-8. What is a Real-Time Operating System (RTOS)? Differentiate between hard and soft real-time systems.
+8. Question 8: Differentiate between Multitasking, Multiprocessing, and Multithreading. What is a Real-Time Operating System (RTOS)? Differentiate between hard and soft real-time systems.
 9. What is the difference between symmetric multiprocessing (SMP) and asymmetric multiprocessing?
 10. What is NUMA architecture and how does it differ from SMP?
 
